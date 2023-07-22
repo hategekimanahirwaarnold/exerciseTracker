@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node ./src/index.js",
-		"build": "./node_modules/.bin/netlify-lambda build src"
+		"build": "netlify deploy --prod"
 	},
 	"dependencies": {
 		"body-parser": "^1.20.2",
