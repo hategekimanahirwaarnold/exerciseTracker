@@ -4,7 +4,7 @@
 	"description": "A REST API project, part of Free Code Camp's curriculum",
 	"main": "index.js",
 	"scripts": {
-		"start": "node ./src/index.js",
+		"start": "node index.js",
 		"build": "netlify deploy --prod"
 	},
 	"dependencies": {
